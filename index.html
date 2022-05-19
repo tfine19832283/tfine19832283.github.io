@@ -5,13 +5,19 @@
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-MFWPB47');</script>
+  })(window,document,'script','dataLayer','GTM-MFWPB47');
+
+  function key1return(){
+    document.getElementById("key1").innerHTML = {key1};
+  }
+
+</script>
   <!-- End Google Tag Manager -->
 </head>
 
 <!DOCTYPE html>
 <html>
-  <body>
+  <body onload = "key1return">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MFWPB47"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -21,7 +27,7 @@
 
     <p>San Francisco is my second most favorite city</p>
 
-    <p id ="key1"</p>
+     <h1>"The value for number is: " <span id="key1"></span></h1>
 
 
 
